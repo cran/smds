@@ -1,0 +1,6 @@
+useDynLib("smds")
+import("MASS")
+export("IMDS")
+export("idistBox")
+export("idistSph")
+S3method(plot, imds)
